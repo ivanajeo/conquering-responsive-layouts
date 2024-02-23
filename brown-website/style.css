@@ -1,0 +1,158 @@
+:root {
+    --clr-cream: #F3EED9;
+    --clr-brown: #824936;
+    --clr-dark: #222C2A;
+
+    --ff-regular: "Roboto", sans-serif;
+    --ff-accent: "Playfair Display", serif;
+
+    --fw-light: 300;
+    --fw-normal: 400;
+    --fw-bold: 700;
+
+    --fs-sub-title: 1.125rem;
+    --fs-regular: 1.3125rem;
+    --fs-h2: 2.25rem;
+    --fs-h1: 3.75rem;
+}
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+
+/* utility */
+.container {
+    width: 85%;
+    max-width: 1185px;
+
+    margin: 0 auto;
+}
+
+
+/* main styling */
+body {
+    font-family: var(--ff-regular);
+    font-size: var(--fs-regular);
+}
+
+.hero {
+    background-color: var(--clr-cream);
+    min-height: 660px;
+
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.hero__sub-title {
+    text-transform: uppercase;
+    font-size: var(--fs-sub-title);
+    font-weight: var(--fw-light);
+    color: var(--clr-dark);
+    letter-spacing: 0.35rem;
+}
+
+.hero__title {
+    font-size: 3.2rem;
+    font-weight: var(--fw-bold);
+    font-family: var(--ff-accent);
+    color: var(--clr-brown);
+    line-height: 1.1;
+}
+
+.box {
+    padding: 3rem 0;
+}
+
+.box__title {
+    font-size: var(--fs-h2);
+    font-family: var(--ff-accent);
+
+    margin-bottom: 1em;
+}
+
+.box__title--brown {
+    color: var(--clr-brown);
+}
+
+.desc {
+    margin-bottom: 1em;
+}
+
+.box--two {
+    background-color: var(--clr-brown);
+    color: var(--clr-cream);
+}
+
+.box--three {
+    background-color: var(--clr-dark);
+    color: var(--clr-cream);
+}
+
+.box__img {
+    margin-bottom: 1em;
+}
+
+
+/* media query */
+@media (min-width: 800px) {
+
+    /* utility */
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .reverse {
+        flex-direction: row-reverse;
+    }
+
+
+    /* main styling */
+    .hero__title {
+        font-size: var(--fs-h1);
+    }
+    
+    .box--one .desc,
+    .box__text,
+    .box__img {
+        width: 48%;
+    }
+
+    .box__img {
+        align-self: flex-start;
+    }
+
+    .box__title--brown {
+        text-align: center;
+    }
+}
