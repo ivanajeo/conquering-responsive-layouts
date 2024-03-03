@@ -70,10 +70,7 @@
 
 
 /* main settings */
-.nav__link:not(.nav__link--btn):is(:hover, :focus) {
-  text-decoration: underline;
-  text-decoration-thickness: 0.1em;
-}
+
 
 .btn:is(:hover, :focus) {
   background-color: var(--clr-gold-light);
