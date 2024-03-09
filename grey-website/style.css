@@ -239,6 +239,7 @@ body {
 .footer__links__item {
   margin-bottom: var(--m-bottom);
 }
+
 .about__desc {
   font-size: 1rem;
 }
@@ -252,17 +253,15 @@ body {
   color: var(--clr-grey-dark);
   text-transform: capitalize;
   text-decoration: none;
-
-
 }
 
 .footer__links__row {
   display: flex;
   justify-content: space-between;
-
-  
 }
 
+
+/* media query */
 @media (min-width: 700px) {
   .nav__row {
     display: flex;
