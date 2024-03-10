@@ -82,9 +82,11 @@
 .gold {
     color: var(--clr-gold);
 }
+
 body {
     font-family: var(--ff-regular);
 }
+
 .header {
     background-color: var(--clr-darkest);
     padding: 1rem;
