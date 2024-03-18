@@ -17,7 +17,7 @@
     --container-padding: 5rem 0;
 }
 
-
+/* css reset */
 *, *::before, *::after {
     box-sizing: border-box;
   }
