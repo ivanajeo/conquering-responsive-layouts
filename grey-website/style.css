@@ -258,7 +258,7 @@ body {
 }
 
 
-/* media query */
+/* media queries */
 @media (min-width: 700px) {
   .nav__row {
     display: flex;
@@ -297,6 +297,7 @@ body {
     margin: 0 auto;
   }
 }
+
 
 @media (min-width: 1000px) {
 
