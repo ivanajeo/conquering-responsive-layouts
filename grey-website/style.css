@@ -65,13 +65,12 @@
   display: inline-block;
 }
 
-
-/* main settings */
 .btn:is(:hover, :focus) {
   background-color: var(--clr-gold-light);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);;
 }
 
+/* main settings */
 .footer__link:is(:hover, :focus) {
   color: var(--clr-white);
 }
@@ -152,8 +151,7 @@ body {
 }
 
 .section--one__title {
-    font-size: 1.875rem;
-
+    font-size: 1.875rem;  
     margin-bottom: 0.15em;
 }
 
