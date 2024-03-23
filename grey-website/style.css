@@ -250,6 +250,10 @@ body {
   text-decoration: none;
 }
 
+.footer__link:is(:hover, :focus) {
+
+}
+
 .footer__links__row {
   display: flex;
   justify-content: space-between;
