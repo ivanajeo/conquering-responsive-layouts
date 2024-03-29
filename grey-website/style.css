@@ -75,9 +75,9 @@
   color: var(--clr-white);
 }
 
-.gold {
+/* .gold {
     color: var(--clr-gold);
-}
+} */
 
 body {
     font-family: var(--ff-regular);
