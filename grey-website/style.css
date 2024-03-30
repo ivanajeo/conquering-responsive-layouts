@@ -121,6 +121,9 @@ body {
   padding: 0.15em 1em;
 }
 
+.nav__link:is(:hover, :focus) {
+}
+
 .hero {
     background-color: var(--clr-dark);
     color: var(--clr-white);
