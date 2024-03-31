@@ -122,6 +122,7 @@ body {
 }
 
 .nav__link:is(:hover, :focus) {
+    cursor: pointer;
 }
 
 .hero {
