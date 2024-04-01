@@ -65,20 +65,6 @@
   display: inline-block;
 }
 
-/* .btn:is(:hover, :focus) {
-  background-color: var(--clr-gold-light);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);;
-} */
-
-/* main settings */
-.footer__link:is(:hover, :focus) {
-  color: var(--clr-white);
-}
-
-/* .gold {
-    color: var(--clr-gold);
-} */
-
 body {
     font-family: var(--ff-regular);
 }
