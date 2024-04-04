@@ -106,6 +106,7 @@ body {
 
 .nav__link:is(:hover, :focus) {
     cursor: pointer;
+    
 }
 
 .hero {
@@ -238,7 +239,7 @@ body {
 }
 
 .footer__link:is(:hover, :focus) {
-
+    cursor: pointer;
 }
 
 .footer__links__row {
