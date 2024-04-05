@@ -42,8 +42,6 @@
   #root, #__next {
     isolation: isolate;
   }
-
-
 /* utility */
 .container {
     width: 85%;
