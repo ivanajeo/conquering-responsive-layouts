@@ -104,7 +104,7 @@ body {
 
 .nav__link:is(:hover, :focus) {
     cursor: pointer;
-    
+    background-color:;
 }
 
 .hero {
